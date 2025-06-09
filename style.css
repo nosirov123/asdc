@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.blok {
+    display: flex;
+    gap: 35px;
+}
+
+body {
+
+    background: rgb(18, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#inp {
+    box-sizing: border-box;
+    border: 3px solid rgb(42, 42, 42);
+    border-radius: 30px;
+    width: 331px;
+    height: 51px;
+    background: rgb(217, 217, 217);
+    color: rgb(42, 42, 42);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#send {
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 112px;
+    height: 51px;
+    background: rgb(42, 42, 42);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.blok2 {
+    display: flex;
+    border-radius: 32px;
+
+    background: rgba(217, 217, 217, 0.5);
+    width: 478px;
+    height: 134px;
+    margin-top: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+#minus {
+    background-color: transparent;
+    width: 24.57px;
+    height: 12.23px;
+    margin-top: 0px;
+    /* margin-left: 49px; */
+    border: none;
+    font-size: xx-large;
+    cursor: pointer;
+    color: white;
+}
+
+#plus {
+    background-color: transparent;
+    width: 40.5px;
+    height: 41.38px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 112px;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+#counter {
+    color: rgb(203, 42, 42);
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 87px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 48px;
+    height: 87px;
+    margin-top: 20px;
+    margin-left: 125px;
+    cursor: pointer;
+}
+
+#text {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 295px;
+    height: 58px;
+}

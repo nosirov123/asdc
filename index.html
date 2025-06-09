@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="h-screen bg-black flex">
+    
+    <div class="container gap-[55px] mt-[200px] ml-[200px] border-2 flex items-center flex-col">
+        <div class="flex items-center gap-[35px]">
+            <input class="rounded-[30px] border-2 border-[#2A2A2A] py-3 px-7 bg-white outline-none" type="number" name="" id="input" placeholder="Enter your number">
+            <button id="send" class="bg-gray-400 rounded-[30px] text-white items-center justify-center flex w-[115px] h-[51px]">Send</button>
+        </div>
+        <div class="w-[478px] h-[134px] bg-gray-400 rounded-[32px] flex items-center justify-between px-[24px] mt-[70px]">
+            <button class="color-[#DCDCDC] text-[50px]" id="minus">-</button>
+            <h1 id="counter" class="text-[60px]">0</h1>
+            <button class="color-[#DCDCDC] text-[50px]" id="plus">+</button>
+        </div>
+        <div class="flex items-center gap-[35px] mt-[50px] mr-[200px]">
+            <h2 class="text-[60px] text-white">Select Color:</h2>
+            <input class="w-[100px] h-[50px]" type="color" name="" id="inputColor">
+        </div>
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
